@@ -12,3 +12,7 @@ Hopefully this code can be used as a base to make your own tipbot in PHP.
 I have removed the dogec0in.com integration that was in the original version of this tipbot; however, you can still use "waterbowl" instead of a dogecoin address when withdrawing. I'd appreciate it if you could keep this feature in your fork, though I fully understand if you do not wish to.
 
 Sure, some of the code could be improved, and thus, pull requests to improve this "tipbot base" will be welcomed.
+
+The main tipbot file is dogetip.php and this is licensed under the MIT license.
+
+Dogecoin.php is based on [bitcoin-php](https://github.com/mikegogulski/bitcoin-php), which is in the public domain; jsonRPCClient.php is part of [JSON-RPC PHP](http://jsonrpcphp.org/), which is licensed under the GPL.
